@@ -1,0 +1,17 @@
+Sprint 1:
+  create story premise
+  create movement system
+  design map
+  set movement parameters
+Sprint 2:
+  write story
+  create location triggered events
+  design UI/output format
+  bind location triggered events w/ story events
+  design boolean variables for location events
+Sprint 3:
+  combine code sections
+  troubleshoot
+  refine
+    make gui friendly if it can be made more so
+    simplify code where possible
