@@ -1,0 +1,6 @@
+RED
+  cant walk through (obstacle)
+BLUE
+  can walk through (i wouldnt use this, because if you just walk through it, there is no point in mapping it)
+YELLOW
+  Interactable
