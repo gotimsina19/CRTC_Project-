@@ -10,6 +10,27 @@ if y>=25():
 if y<=0():
   y = 0
   print ("You hit a Wall")
-  
-input(movecommand("Where to? : "))
-if
+
+def moveinput():
+  directions = input("Where to? DIRECTIONS: FORWARD, BACKWARD, LEFT, RIGHT: ")
+  distance = input(int("How many steps?: "))
+
+move = (movecommand, int(steps))
+if directions(FORWARD):
+  y = y+distance
+elif directions(BACKWARD):
+  y = y-distance
+elif directions(LEFT):
+  x = x+distance
+elif directions(RIGHT):
+  x = x-distance
+else:
+  print ("INVALID INPUT: Try again:")
+  moveinput()
+
+
+FORWARD = y+steps
+BACKWARD= y-steps
+LEFT= x+steps
+RIGHT= x-steps
+pos = (x,y)
