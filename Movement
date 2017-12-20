@@ -12,3 +12,4 @@ if y<=0():
   print ("You hit a Wall")
   
 input(movecommand("Where to? : "))
+if
