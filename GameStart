@@ -1,0 +1,51 @@
+import sys
+print "Start Game?"
+print "Y/N"
+game_start = input(" ")
+print ("Hello, you are currently in the storage facility of a Vault ")
+print ("This is an automated message, please state your identification")
+name = input("Insert your name: ")
+print "Hello,", name
+print "As a new citizen you do not have authorization"
+print "to open the door to get out"
+print "would you like to learn how upgrade your authorization?"
+print "Y/N" 
+answer = input(" ")
+if answer == "Y":
+    print "Your authorization is currently 0, "
+    print "while you need to have a authorization of 5"
+    print "to open the door."
+else:
+    print "Failure in progress"
+    print "..."
+    print "...... "
+    print "............"
+    print "Game Over"
+#   return():
+    sys.exit()
+print "To upgrade your authorization an employee"
+print "needs to approve of the upgrade."
+print "An employee can only improve your level to be the same as theirs."
+print " " 
+print "Do you understand everything so far?"
+print "Y/N "
+query = input(" ")
+if query == "Y":
+    print " "
+elif query == "N":
+    print "Message repeating"
+    print " "
+    print "Your authorization is currently 0, "
+    print "while you need to have a authorization of 5"
+    print "to open the door."
+    print "To upgrade your authorization an employee"
+    print "needs to approve of the upgrade."
+    print "An employee can only improve your level to be the same as theirs."
+    print " " 
+else:
+    print "unknown answer"
+    print " "
+    print"Game Over"
+#   return():
+    sys.exit()
+print "OK, lets continue"
