@@ -1,0 +1,78 @@
+print "lets answer some riddles!!"
+print "The maker does not want it, the buyer does not use it and the user does not know it. What is it?"
+riddle1 = input(" ")
+answer = "coffin"
+
+if riddle1 == answer:
+    print "You got it!"
+while riddle1 != answer:
+    print "guess again."
+    print "The maker does not want it, the buyer does not use it and the user does not know it. What is it?"
+    riddle1 = input(" ")
+    if riddle1 == answer:
+        print "You got it!"
+print"...................."
+
+print "lets see if you get this one!!"
+print "A doctor and a bus driver are both in love with the same woman, an attractive girl named Sarah. The bus driver had to go on a long bus trip that would last a week. Before he left, he gave Sarah seven apples. Why?"
+riddle2 = input(" ")
+answer2 = "an apple a day keeps the doctor away"
+
+if riddle2 == answer2:
+    print "niceee job, got it on the first try!!"
+while riddle2 != answer2:
+    print "try again."
+    print "A doctor and a bus driver are both in love with the same woman, an attractive girl named Sarah. The bus driver had to go on a long bus trip that would last a week. Before he left, he gave Sarah seven apples. Why?"
+    riddle2 = input(" ")
+    if riddle2 == answer2:
+        print "You got it!"
+print"...................."
+
+print "ANOTHER ONE"
+print "A seven letter word containing thousands of letters?"
+riddle3 = input(" ")
+answer3 = "mailbox"
+
+if riddle3 == answer3:
+    print "niceee job, got it on the first try!!"
+while riddle3 != answer3:
+    print "try again."
+    print "A seven letter word containing thousands of letters?"
+    riddle3 = input(" ")
+    if riddle3 == answer3:
+        print "You got it!"
+print"...................."
+
+
+print "you are good at this, try this one"
+print "What begins with T, ends with T and has T in it?"
+riddle4 = input(" ")
+answer4 = "teapot"
+
+if riddle4 == answer4:
+    print "wow, got it on the first try!!"
+while riddle4 != answer4:
+    print "try again."
+    print "What begins with T, ends with T and has T in it?"
+    riddle4 = input(" ")
+    if riddle4 == answer4:
+        print "You nailed it!"
+print"...................."
+        
+
+print "how about this"
+print "A blue house has blue bricks. A yellow house has a yellow bricks. What is a green house made of?"
+riddle5 = input(" ")
+answer5 = "glass"
+
+if riddle5 == answer5:
+    print "neard, you got it on the firt time!"
+while riddle5 != answer5:
+    print "try again."
+    print "A blue house has blue bricks; a yellow house has a yellow bricks. What is a green house made of?"
+    riddle5 = input(" ")
+    if riddle5 == answer5:
+        print "great job!"
+print"...................."
+
+print"congratulations you have passed the RIDDLE CHALANGE!!"
